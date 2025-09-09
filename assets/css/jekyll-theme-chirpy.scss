@@ -1,0 +1,11 @@
+/* assets/css/jekyll-theme-chirpy.scss */
+@import "jekyll-theme-chirpy";
+
+/* Slightly larger post titles on home */
+.post-title {
+  font-size: 1.35rem;
+}
+
+/* Tweak link appearance */
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }

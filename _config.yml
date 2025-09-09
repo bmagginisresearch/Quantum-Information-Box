@@ -9,6 +9,8 @@ timezone: America/New York
 # For a project site 
 url: "https://bmagginisresearch.github.io"
 baseurl: "/Quantum-Information-Box"
+theme_mode auto 
+remote_theme: "cotes2020/jekyll-theme-chirpy"
 
 # If you later switch to a user site (repo named USERNAME.github.io),
 # remove baseurl and keep only:
