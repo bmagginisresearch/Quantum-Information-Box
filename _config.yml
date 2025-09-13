@@ -1,4 +1,3 @@
-# ==== Site basics ====
 title: "Quantum Information Box"
 tagline: "Notes, research, and posts"
 description: >-
@@ -6,42 +5,18 @@ description: >-
 lang: "en"
 timezone: "America/New_York"
 
-# ==== URLs (project site) ====
-url: "https://bmagginisresearch.github.io"      # no trailing slash
-baseurl: "/Quantum-Information-Box"             # repo name, starts with "/"
+url: "https://bmagginisresearch.github.io"   # project site base URL
+baseurl: "/Quantum-Information-Box"          # repo path, starts with "/"
 
-# ==== Theme ====
 remote_theme: "cotes2020/jekyll-theme-chirpy"
-theme_mode: "auto"  # auto | light | dark
+theme_mode: "auto"
 
-# ==== Author ====
 author:
   name: "Billy Magginis"
-  avatar: "/assets/img/avatar.png"   # optional image in assets/img/
   bio: "InfoSec GRC + quantum computing researcher."
-  location: "USA"
 
-# ==== Socials (sidebar icons) ====
-# You can also move these to _data/contact.yml if you prefer.
-social:
-  github: "bmagginisresearch"
-  linkedin: "your-linkedin-slug"
-  rss: true
-  email: "you@example.com"
-
-# ==== Build settings ====
-markdown: "kramdown"
-highlighter: "rouge"
-
+# Keep plugins to the minimum first; we'll add others later
 plugins:
   - jekyll-remote-theme
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-feed
 
-# ==== Pagination ====
-paginate: 10
-paginate_path: "/page:num"
-
-# ==== Permalinks ====
-permalink: "/posts/:title/"
+# Keep default permalinks first (let the theme handle it)
