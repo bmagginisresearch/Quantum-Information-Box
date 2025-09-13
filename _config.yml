@@ -22,10 +22,11 @@ theme_mode: auto
 
 # ==== Author & socials ====
 author:
-  name "Billy Magginis"
-  avatar: "C:\Users\rapsc\Downloads\1636730753677.jpg"
-  bio: "Information Security Analyst | Quantum Computing Enthusiast"
-  location: "United States"
+name: "Billy Magginis"
+avatar: "/assets/img/avatar.png"
+bio: "InfoSec GRC + quantum computing researcher."
+location: "USA"
+
 
 # Sidebar social 
 social:
