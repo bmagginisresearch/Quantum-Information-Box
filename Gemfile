@@ -6,4 +6,4 @@ gem "tzinfo", "~> 1.2"
 gem "tzinfo-data"
 
 # optional but nice for file watching on Windows:
-get "wdm", ">= 0.1.1"
+gem "wdm", ">= 0.1.1"
