@@ -1,49 +1,47 @@
 # ==== Site basics ====
-title: Quantum Information Box
-tagline: Notes, research, and posts
-description: Quantum Computing, Quantum Information, AI, Information Theory, and Security
-lang: en
-timezone: America/New York
+title: "Quantum Information Box"
+tagline: "Notes, research, and posts"
+description: >-
+  A technical blog on quantum information, information security, and research.
+lang: "en"
+timezone: "America/New_York"
 
-# ==== URLs ====
-# For a project site 
-url: "https://bmagginisresearch.github.io"
-baseurl: "/Quantum-Information-Box"
-theme_mode: auto 
-remote_theme: "cotes2020/jekyll-theme-chirpy"
-
-# If you later switch to a user site (repo named USERNAME.github.io),
-# remove baseurl and keep only:
-# url: "https://bmagginisresearch.github.io"
+# ==== URLs (project site) ====
+url: "https://bmagginisresearch.github.io"      # no trailing slash
+baseurl: "/Quantum-Information-Box"             # repo name, starts with "/"
 
 # ==== Theme ====
 remote_theme: "cotes2020/jekyll-theme-chirpy"
-theme_mode: auto 
+theme_mode: "auto"  # auto | light | dark
 
-# ==== Author & socials ====
+# ==== Author ====
 author:
-name: "Billy Magginis"
-avatar: "/assets/img/avatar.png"
-bio: "InfoSec GRC + quantum computing researcher."
-location: "USA"
+  name: "Billy Magginis"
+  avatar: "/assets/img/avatar.png"   # optional image in assets/img/
+  bio: "InfoSec GRC + quantum computing researcher."
+  location: "USA"
 
-
-# Sidebar social 
+# ==== Socials (sidebar icons) ====
+# You can also move these to _data/contact.yml if you prefer.
 social:
-  github: bmagginisresearch 
-  linkedin: william-magginis-39440a57
+  github: "bmagginisresearch"
+  linkedin: "your-linkedin-slug"
   rss: true
+  email: "you@example.com"
 
-# ==== Build ====
-markdown: kramdown
-highlighter: rouge
+# ==== Build settings ====
+markdown: "kramdown"
+highlighter: "rouge"
 
 plugins:
-  - jekyll-remote-theme 
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
 
-# ==== Pagination (optional) ====
+# ==== Pagination ====
 paginate: 10
-paginate: "/page:num"
+paginate_path: "/page:num"
 
-# ==== Permalinks (optional) ====
-permalink: /posts/:title/
+# ==== Permalinks ====
+permalink: "/posts/:title/"
